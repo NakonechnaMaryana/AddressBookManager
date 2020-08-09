@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AddressBookManager:war">
+    <output-path>$PROJECT_DIR$/AddressBookManager-master/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>AddressBookManager</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="AddressBookManager.war">
+      <element id="artifact" artifact-name="AddressBookManager:war exploded" />
+    </root>
+  </artifact>
+</component>
